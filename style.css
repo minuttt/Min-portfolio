@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Raleway:900&display=swap');
 
 :root {
   --background-1: #0E1525;
@@ -879,6 +881,95 @@ navbut:hover:after {
     opacity: .85;
   }
 }
+
+
+/* My background */
+
+.my {
+  width: 300px;
+  height: 40px;
+}
+
+.mywhat {
+  display: block;
+  position: sticky;
+  overflow: hidden;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  line-height: 40px;
+  margin-top: -30px;
+  margin-left: -80px; 
+  color: #ecf0f1;
+}
+
+.mywhat__my {
+  font-weight: 600;
+  overflow: hidden;
+  height: 40px;
+  padding: 0 40px;
+}
+
+
+.mywhat__my__text {
+  display: inline;
+  float: left;
+  margin: 20px 0 0; /* Adding 20px of margin on the top */
+}
+
+
+.mywhat__my__list {
+  margin-top: 0;
+  padding-left: 110px;
+  text-align: left;
+  list-style: none;
+  -webkit-animation-name: change;
+  -webkit-animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: change;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+.mywhat__my__list__item {
+  line-height: 40px;
+  margin: 0;
+}
+
+@keyframes opacity {
+  0%, 100% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes change {
+  
+
+  16.66%, 29.32% {
+    transform: translate3d(0, -5%, 0);
+  }
+
+  
+
+  49.98%, 62.64% {
+    transform: translate3d(0, -55%, 0);
+  }
+
+  
+  83.3%, 95.96% {
+    transform: translate3d(0, -5%, 0);
+  }
+  
+}
+
+
+/* morphy  */
+
+
+
 
 
 
